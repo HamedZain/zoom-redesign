@@ -1,0 +1,12 @@
+.Stream {
+    flex: 1 1 auto;
+    background-color: #252330;
+    min-height: 0;
+
+    &__img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

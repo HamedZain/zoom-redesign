@@ -1,0 +1,14 @@
+.Controls {
+    flex: 0 0 auto;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+}
