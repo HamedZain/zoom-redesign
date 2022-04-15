@@ -1,0 +1,35 @@
+.Header {
+    flex: 0 0 auto;
+    height: 80px;
+    padding: 0 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        height: 16px;
+        width: auto;
+    }
+
+    &__meeting {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__time {
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0.16);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 6px;
+            height: 24px;
+            border-radius: calc(24px / 100 * 44);
+        }
+    }
+}
