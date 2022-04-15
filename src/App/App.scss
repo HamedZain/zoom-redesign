@@ -1,0 +1,29 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--background);
+    color: var(--text);
+
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        flex: 1 1 auto;
+        padding: 0 32px;
+
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+
+        min-height: 0;
+
+
+        &__call {
+            flex: 1 1 auto;
+
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
