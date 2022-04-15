@@ -1,1 +1,0 @@
-export { ReactComponent as ZoomLogo } from './logo.svg'
