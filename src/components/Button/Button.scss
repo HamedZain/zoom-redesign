@@ -1,0 +1,17 @@
+.Button {
+    width: 48px;
+    height: 48px;
+    color: currentColor;
+    border: none;
+    font: inherit;
+
+    background-color: #243336;
+    border-radius: 44%;
+
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
